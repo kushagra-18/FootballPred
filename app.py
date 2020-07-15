@@ -5,7 +5,7 @@ from sklearn.svm import SVC
 import pandas as pd
 
 app = Flask(__name__)
-model = pickle.load(open(r"C:\Users\Kushagra's PC\Football\FootballPrediction\football.pkl", "rb"))
+model = pickle.load(open("football.pkl", "rb"))
 
 
 
